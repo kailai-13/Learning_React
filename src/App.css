@@ -1,0 +1,60 @@
+
+
+.card{
+  background-color: #ff7070;
+  border: black;
+  border-width: 10px;
+  box-shadow: 5px 5px 5px hsla(110, 100%, 63%, 0.5); ;
+  border-radius: 10%;
+  padding: 120px;
+  text-align: center;
+  margin: 3%;
+  max-width: 500px;
+  width: 500px;
+  max-height: 500px;
+  cursor: pointer;
+  display: inline-block ;
+}
+
+.card:hover{
+  background-color: #646cff;
+  color: white;
+  box-shadow: yellow;
+  transition: 0.5s;
+  
+}
+
+.card .img{
+ 
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+
+}
+
+.card .title{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aquamarine;
+
+}
+
+.card .read{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.Student{
+  background-color: #ff7070;
+  border: black;
+  border-width: 10px;
+  box-shadow: 5px 5px 5px hsla(110, 100%, 63%, 0.5); ;
+  border-radius: 10%;
+  padding: 120px;
+  text-align: center;
+  margin: 3%;
+  max-width: 500px;
+  width: 500px;
+  max-height: 500px;
+  cursor: pointer;
+  display: inline-block ;
+}
