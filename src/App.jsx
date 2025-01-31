@@ -4,33 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './card.jsx'
 import Student from './student.jsx'
-
+import List from './list.jsx'
 function App() {
   const [count, setCount] = useState(0)
+  const marks=[{id:1,name:'ajay',mark:98},
+                {id:2,name:'KAILAI',mark:78},
+                {id:3,name:'gunal',mark:28},
+                {id:4,name:'anu',mark:'90'}];
+  const hello=[{id:1,name:'ajay',mark:98},
+                {id:2,name:'KAILAI',mark:78},
+                {id:3,name:'gunal',mark:28},
+                {id:4,name:'anu',mark:92}];
 
   return ( 
     <> 
-        <div className='Card-container'>
-          <Card>
+      <List item={marks} category='Class'></List>
+      <List item={hello} category='Class B'></List>
 
-          </Card>
-          <Card>
-
-          </Card>
-          <Card>
-            
-          </Card>
-          <Card>
-            
-          </Card>
-         
-          
-      
-        </div>
-         <Student name='kailai' age='20' is='true'></Student>
-         <Student name='gunal' age='20' is='true'></Student>
-         <Student name='ajay' age='20' is={false}></Student>
-         <Student></Student>
   </>
   )
 }
