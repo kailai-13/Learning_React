@@ -2,7 +2,7 @@ import Spider from './Screenshot (389).png'
 
 function Card(){
     return(
-        <div className='card'>
+        <div className='card'><a href='list.jsx'>
             
             <img className='img' src ={Spider} alt="Spider" />
             <h1 className='title'>Spider-Man</h1>
@@ -10,7 +10,7 @@ function Card(){
             <hr></hr>
 
 
-            
+            </a>
 
         </div>
     )

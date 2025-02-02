@@ -1,5 +1,7 @@
 
-
+body{
+  background-image: './Screenshot (389).png';
+}
 .card{
   background-color: #ff7070;
   border: black;
