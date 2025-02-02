@@ -12,11 +12,9 @@ function App() {
   
   return ( 
     <> 
-    <body style={{backgroundColor:'pink'}}>
-      <h1>pooda</h1>
+
       <Card></Card>
 
-    </body>
    
     
 
