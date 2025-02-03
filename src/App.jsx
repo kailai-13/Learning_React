@@ -7,13 +7,15 @@ import List from './list.jsx'
 import Button from './botton'
 import Use from './usestate'
 import spiderman from './Screenshot (389).png'
+import Events from './events'
 
 function App() {
   
   return ( 
     <> 
 
-      <Card></Card>
+      <Events/>
+
 
    
     
