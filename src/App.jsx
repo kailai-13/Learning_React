@@ -8,13 +8,14 @@ import Button from './botton'
 import Use from './usestate'
 import spiderman from './Screenshot (389).png'
 import Events from './events'
+import ColorPicker from  './colorpicker.jsx'
 
 function App() {
   
   return ( 
     <> 
 
-      <Events/>
+      <ColorPicker/>
 
 
    

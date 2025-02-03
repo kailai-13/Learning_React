@@ -1,7 +1,5 @@
 
-body{
-  background-image: './Screenshot (389).png';
-}
+
 .card{
   background-color: #ff7070;
   border: black;
@@ -59,4 +57,37 @@ body{
   max-height: 500px;
   cursor: pointer;
   display: inline-block ;
+}
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  margin:100px;
+ 
+}
+div{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin:95px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: #000000;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.5);
+  font-size: 50px;
+  font-family: 'Haettenschweiler', 'Arial';
+  transition: 0.5s ease;
+
+  
 }
