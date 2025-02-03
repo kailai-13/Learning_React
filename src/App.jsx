@@ -14,9 +14,9 @@ function App() {
   
   return ( 
     <> 
+    <Use/>
 
-      <ColorPicker/>
-
+  
 
    
     

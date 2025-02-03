@@ -30,11 +30,11 @@ function Use() {
 
   const [count1, setCount1] = useState(0);
   const add=()=>{
-    setCount1(count1+1);
+    setCount1(c=>c+5);
 
   }
   const sub=()=>{
-    setCount1(count1-1);
+    setCount1(c=>c-1);
   }
   const reset=()=>{
     setCount1(count=0);
