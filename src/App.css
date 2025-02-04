@@ -127,12 +127,11 @@ input[type]:hover{
 
 .to{
   background-color: #ffa1fc;
-  width: 500px;
+  width: 430px;
   height: 75px;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin: 10px 10px 10px 10px;
   border-radius: 10%;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.5);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -216,4 +215,20 @@ input[type]:hover{
   background-color: #646cff;
   color: rgb(0, 0, 0);
   transition: 0.5s;
+}
+
+
+.con{
+  background-color: #000000;
+  border: black;
+  border-width: 10px;
+  box-shadow: 5px 5px 5px hsla(110, 100%, 63%, 0.5); ;
+  border-radius: 10%;
+  padding: 120px;
+  text-align: center;
+  margin: 3%;
+  justify-content: center;
+  align-items: center;
+ 
+
 }

@@ -30,7 +30,7 @@ function Todo() {
     }
   };
   return (
-    <div className="card">
+    <div className="con" >
       <h1 className="to">Todo List</h1>
       <input
         type="text"
