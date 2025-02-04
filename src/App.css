@@ -12,13 +12,13 @@
   max-width: 500px;
   width: 500px;
   max-height: 500px;
-  cursor: pointer;
+ 
   display: inline-block ;
 }
 
 .card:hover{
   background-color: #646cff;
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: yellow;
   transition: 0.5s;
   
@@ -90,4 +90,130 @@ div{
   transition: 0.5s ease;
 
   
+}
+
+input[type]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 12px;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: hsla(0, 10%, 10%, 0.5);
+  border-radius: 10%;
+}
+
+input[type]:hover{
+  background-color: #828282;
+  transition: 0.5s;
+  
+ 
+}
+.add{
+  width: 100px;
+  height: 30px;
+  background-color: hsla(135, 100%, 50% , 0.8);
+  box-shadow: #000000;
+  border-radius: 20%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.add:hover{
+  background-color: hsla(245, 100%, 50%, 0.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.to{
+  background-color: #ffa1fc;
+  width: 500px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.5);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+.to:hover{
+  background-color: #efff0b;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.to .title{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aquamarine;
+  font-size: 30px;
+}
+
+.li{
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 20px;
+
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.5);
+  
+}
+
+.li:hover{
+  background-color: #ff7070;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.del{
+  background-color: #ff7070;
+  width: 60px;
+  height: 30px;
+  border-radius: 20%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+}
+.del:hover{
+  background-color: #646cff;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.down{
+  background-color: #ff7070;
+  width: 60px;
+  height: 30px;
+  border-radius: 20%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+}
+.down:hover{
+  background-color: #646cff;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.up{
+  background-color: #ff7070;
+  width: 60px;
+  height: 30px;
+  border-radius: 20%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+}
+.up:hover{
+  background-color: #646cff;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
 }
